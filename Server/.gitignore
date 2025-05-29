@@ -1,0 +1,80 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+bower_components/
+
+# Optional npm cache directory
+.npm/
+
+# Output of 'npm pack'
+*.tgz
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+out/
+
+# PM2 process manager
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+*.bak
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# TypeScript build folder
+/lib/
+/types/
+/*.js
+/*.js.map
+
+# Next.js (if using)
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Svelte
+.svelte-kit/
+
+# Remix
+/build/
+
+# Storybook
+.out/
+storybook-static/
+
+# ESLint cache
+.eslintcache
